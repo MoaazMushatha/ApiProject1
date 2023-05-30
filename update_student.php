@@ -24,11 +24,4 @@ if ($_SERVER["REQUEST_METHOD"] == "put") {
     }
 }
 
-// if ($_SERVER["REQUEST_METHOD"] == "POST") {
-//     $id = $_POST["id"];
-//     $name = $_POST["name"];
-//     $age = $_FILES["age"];
-
-//     $db_helper->updateStudent($id, $name, $age);
-// }
 ?>
